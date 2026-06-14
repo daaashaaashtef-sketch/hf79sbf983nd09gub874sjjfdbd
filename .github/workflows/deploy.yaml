@@ -24,7 +24,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: From Obsidian to Web
-        uses: jackyzha0/quartz-github-pages@v5
+        uses: jackyzha0/quartz-gh-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
